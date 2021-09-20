@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{B02933
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCSandBox", "source\TCSandBox\TCSandBox.csproj", "{0AC3FAB4-D82E-4375-8F78-8F5FA6FD9859}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{301720A8-583B-4ABE-842D-87C3D2618BDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCSandBox.UnitTests", "tests\TCSandBox.UnitTests\TCSandBox.UnitTests.csproj", "{940E6A28-6254-4060-B40F-EE7E687EEFEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{0AC3FAB4-D82E-4375-8F78-8F5FA6FD9859}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AC3FAB4-D82E-4375-8F78-8F5FA6FD9859}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AC3FAB4-D82E-4375-8F78-8F5FA6FD9859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940E6A28-6254-4060-B40F-EE7E687EEFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940E6A28-6254-4060-B40F-EE7E687EEFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940E6A28-6254-4060-B40F-EE7E687EEFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940E6A28-6254-4060-B40F-EE7E687EEFEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0AC3FAB4-D82E-4375-8F78-8F5FA6FD9859} = {B029339A-FBEB-485A-A27A-A1A302BC1BF0}
+		{940E6A28-6254-4060-B40F-EE7E687EEFEE} = {301720A8-583B-4ABE-842D-87C3D2618BDA}
 	EndGlobalSection
 EndGlobal
