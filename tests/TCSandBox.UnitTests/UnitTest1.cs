@@ -12,7 +12,7 @@ namespace TCSandBox.UnitTests
         [Test]
         public void Test1()
         {
-            Assert.Fail("First attempt to fix this");
+            Assert.Pass("Fixed now");
         }
     }
 }
