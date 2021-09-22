@@ -18,7 +18,7 @@ namespace TCSandBox.UnitTests
         [Test]
         public void Test2()
         {
-            Assert.Pass("Fixed now");
+            Assert.Fail("Failed now");
         }
     }
 }
