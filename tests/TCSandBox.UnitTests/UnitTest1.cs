@@ -14,5 +14,11 @@ namespace TCSandBox.UnitTests
         {
             Assert.Fail("Failed  purposefully");
         }
+
+        [Test]
+        public void Test2()
+        {
+            Assert.Fail("Failed now");
+        }
     }
 }
