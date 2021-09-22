@@ -12,7 +12,7 @@ namespace TCSandBox.UnitTests
         [Test]
         public void Test1()
         {
-            Assert.Pass("Passed purposefully");
+            Assert.Fail("Failed  purposefully");
         }
     }
 }
