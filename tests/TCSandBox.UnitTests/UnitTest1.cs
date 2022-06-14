@@ -13,7 +13,7 @@ namespace TCSandBox.UnitTests
         [Test]
         public void Test2()
         {
-            Assert.Pass("Xoxooo1");
+            Assert.Fail("Xoxooo1");
         }
     }
 }
